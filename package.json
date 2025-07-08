@@ -1,0 +1,6 @@
+{
+  "name": "bennie",
+  "version": "1.0.0",
+  "description": "An AI agent designed to assist US military veterans in understanding and navigating the VA disability compensation system. Bennie provides information based on official sources like the 38 CFR and .gov websites.",
+  "dependencies": {}
+}
