@@ -1,8 +1,27 @@
 {
-  "name": "bennie-ai-studio",
+  "name": "bennie-netlify",
+  "private": true,
   "version": "1.0.0",
-  "description": "An AI agent designed to assist US military veterans in understanding and navigating the VA disability compensation system. Bennie provides information based on official sources like the 38 CFR and .gov websites.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@google/genai": "^1.8.0"
+    "@google/genai": "^1.8.0",
+    "@netlify/functions": "^2.6.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   }
 }
